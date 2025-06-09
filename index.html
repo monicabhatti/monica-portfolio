@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Monica's Portfolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    :root {
+      --rich-navy: #1B263B;
+      --charcoal-gray: #2B2D42;
+      --deep-teal: #144552;
+      --warm-gold: #F4A261;
+      --soft-beige: #EAE2B7;
+      --muted-olive: #6B705C;
+      --text-light: #F0F0F0;
+    }
+    body {
+      background-color: var(--charcoal-gray);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text-light);
+    }
+    .navbar {
+      background-color: var(--deep-teal);
+    }
+    .nav-link, .navbar-brand {
+      color: var(--soft-beige) !important;
+    }
+    .nav-link:hover {
+      color: var(--warm-gold) !important;
+    }
+    .hero-section {
+      background-color: var(--rich-navy);
+      border-radius: 12px;
+      padding: 3rem 2rem;
+      margin-top: 2rem;
+      box-shadow: 0 0 15px var(--warm-gold);
+      text-align: center;
+    }
+    .hero-title {
+      color: var(--warm-gold);
+      font-weight: 700;
+    }
+    .lead {
+      color: var(--soft-beige);
+      font-size: 1.2rem;
+    }
+    h2, h3 {
+      color: var(--warm-gold);
+      font-weight: 600;
+    }
+    section {
+      background-color: var(--charcoal-gray);
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #0008;
+    }
+    a.btn-outline-primary {
+      color: var(--warm-gold);
+      border-color: var(--warm-gold);
+    }
+    a.btn-outline-primary:hover {
+      background-color: var(--warm-gold);
+      color: var(--charcoal-gray);
+      border-color: var(--warm-gold);
+    }
+    .card {
+      background-color: var(--deep-teal);
+      border: none;
+      color: var(--soft-beige);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px var(--warm-gold);
+    }
+    .card-img-top {
+      border-radius: 10px 10px 0 0;
+    }
+    .card-title {
+      color: var(--warm-gold);
+      font-weight: 700;
+    }
+    .card-text {
+      color: var(--soft-beige);
+    }
+    .text-decoration-none {
+      color: var(--warm-gold) !important;
+    }
+    .text-decoration-none:hover {
+      color: var(--soft-beige) !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Monica</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container">
+    <section class="hero-section">
+      <h1 class="hero-title">Hi, I'm Monica</h1>
+      <p class="lead mt-3">
+        A versatile Computer Science graduate who combines AI, data analysis, and creativity across technology and education. Welcome to my portfolio!
+      </p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I hold a Bachelor's degree in <strong>Computer Science</strong>, where I developed a strong foundation in AI, data analysis, and algorithm design.
+      </p>
+      <p>
+        During my academic journey, I led a Final Year Project titled <em>"Transformer-based Unmasking Deception of DeepFake"</em>, a research-based project that showcased my interest in machine learning and digital deception.
+      </p>
+      <p>
+       I previously served as a <strong>STEM teacher</strong>, making tech education fun and accessible for young 
+       learners. Currently, I’m working as an <strong>accountant at Nimrah Public High School</strong>, where I handle student records, 
+       manage fee structures, and perform data-related tasks using Excel. I also prepare examination papers using <strong>Microsoft Office</strong> and manage the school’s social media presence to boost engagement and outreach.
+      </p>
+      <p>
+        On the creative side, I manage the social media for <strong>JQ Aesthetic</strong>, a skincare and wellness clinic based in Peshawar, where I combine my passion for marketing and creativity.
+      </p>
+      <p>
+        <p>
+              My experiences include <strong>data typing</strong> and documentation work —
+              skills that enhance my precision and attention to detail in every project.
+            </p>
+            <p>
+              Additionally, I have contributed as a <strong>virtual assistant</strong> for <strong>Masches Art Studio</strong>,
+              served as the <strong>focal person and event manager</strong> for <strong>The Order of Pen</strong>,
+              and worked as a <strong>technical writer, event manager, social media marketer,</strong> and
+              <strong>report analyst</strong> at <strong>Triangle PR</strong>.
+            </p>
+            <p>
+              Alongside these roles, I have completed freelance projects focused on
+              <strong>Power BI dashboards, Excel data analysis, KPI tracking sheets,</strong>
+              and <strong>business reports</strong>.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="container-fluid">
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-12 col-sm-6 col-md-4 mb-4" data-aos="fade-up">
+            <div class="card h-100 shadow-sm">
+              <img src="images/3.jpg" class="card-img-top img-fluid" alt="Saudi Analysis" />
+              <div class="card-body">
+                <h5 class="card-title">Saudi Data Analysis Dashboard</h5>
+                <p class="card-text">
+                  Analyzed GDP data by cleaning and building a dashboard tailored to business demands.
+                </p>
+                <a href="https://drive.google.com/file/d/1n9zphogZhCMs6t9UwSIdb2kSqp7SEtxy/view?usp=sharing" target="_blank" class="btn btn-outline-primary">
+                  View Dashboard
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-12 col-sm-6 col-md-4 mb-4" data-aos="fade-up">
+            <div class="card h-100 shadow-sm">
+              <img src="images/2.jpg" class="card-img-top img-fluid" alt="Sales and Orders Dashboard" />
+              <div class="card-body">
+                <h5 class="card-title">Sales and Orders Overview</h5>
+                <p class="card-text">
+                  Developed a detailed dashboard tracking sales supply and order trends over multiple years.
+                </p>
+                <a href="https://drive.google.com/file/d/1__uyF2DPp6NdeKRAWD4CaWhoPvIFvGh_/view?usp=sharing" target="_blank" class="btn btn-outline-primary">
+                  View Dashboard
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-12 col-sm-6 col-md-4 mb-4" data-aos="fade-up">
+            <div class="card h-100 shadow-sm">
+              <img src="images/1.jpg" class="card-img-top img-fluid" alt="Excel Students Data" />
+              <div class="card-body">
+                <h5 class="card-title">Cement Data Analysis</h5>
+                <p class="card-text">
+                   Applied relevant statistics on data and designed a detailed dashboard to visualize key metrics.
+                </p>
+                <a href="https://drive.google.com/file/d/1iDnc1MTDEupIyEIVUNSUZ7xV3o7vYg_A/view?usp=sharing" target="_blank" class="btn btn-outline-primary">
+                  View Dashboard
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section id="portfolio">
+      <h2>Portfolio Gallery</h2>
+      <div class="row g-3">
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/Odoo-Post.png" alt = "Portfolio 1" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/Odoo.png" alt = "Portfolio 2" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3">
+          <img src="images/Eid-ul-Adha.png" alt="Portfolio 3" class="img-fluid rounded shadow-sm" />
+        </div>
+        <div class="col-6 col-sm-4 col-md-3">
+          <img src="images/announcement.jpg" alt="Portfolio 4" class="img-fluid rounded shadow-sm" />
+        </div>
+        <div class="col-6 col-sm-4 col-md-3">
+          <img src="images/Mother-Day.png" alt="Portfolio 5" class="img-fluid rounded shadow-sm" />
+        </div>
+        <div class="col-6 col-sm-4 col-md-3">
+          <img src="images/Labour-day.png" alt="Portfolio 6" class="img-fluid rounded shadow-sm" />
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/Eid.png" alt = "Portfolio 7" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/Ramadan.png" alt = "Portfolio 8" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/S-announcement.png" alt = "Portfolio 9" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/Admissions-open.png" alt = "Portfolio 10" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "Images/Hiring-Post.png" alt = "Portfolio 11" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/Brochure.png" alt = "Portfolio 12" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "images/Brochure-2.png" alt = "Portfolio 13" class="img-fluid rounded shadow-sm"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+     <section id="resume">
+  <h2>Resume</h2>
+  <p>
+    You can view my resume below:
+  </p>
+  <a href="Monica CV.pdf" target="_blank" class="btn btn-outline-primary">
+    <i class="bi bi-file-earmark-person-fill me-2"></i> View CV
+  </a>
+</section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, send me an email at <a href="mailto:imabhattii@gmail.com" class="text-decoration-none">imabhattii@gmail.com</a> or connect with me on LinkedIn and WhatsApp.<br>
+  <a href="http://www.linkedin.com/in/monicaa-" target="_blank" class="btn btn-outline-primary me-2">
+    <i class="bi bi-linkedin"></i> LinkedIn
+  </a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=imabhattii@gmail.com" target="_blank" class="btn btn-outline-primary me-2">
+  <i class="bi bi-envelope"></i> Email
+  </a>
+  <a href="https://wa.me/923159657499" target="_blank" class="btn btn-outline-primary me-2">
+    <i class="bi bi-whatsapp"></i> WhatsApp
+  </a>
+</p>
+    </section>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animate On Scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Smooth Scroll -->
+  <script>
+    document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
