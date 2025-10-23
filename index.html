@@ -98,6 +98,40 @@
     .text-decoration-none:hover {
       color: var(--soft-beige) !important;
     }
+  /* === PORTFOLIO GALLERY IMAGE STYLING === */
+#portfolio .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; /* space between images */
+}
+
+#portfolio .col-6 {
+  flex: 0 0 auto;
+  max-width: 250px; /* limits image box width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio img {
+  height: auto;           /* keeps original height */
+  width: auto;            /* keeps original width */
+  max-width: 100%;        /* prevents overflow */
+  max-height: 250px;      /* limits very tall images */
+  object-fit: contain;    /* ensures full image fits without cropping */
+  border-radius: 10px;
+  background-color: #f8f9fa; /* subtle neutral backdrop */
+  padding: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#portfolio img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
   </style>
 </head>
 <body>
@@ -142,7 +176,8 @@
     <section class="hero-section">
       <h1 class="hero-title">Hi, I'm Monica</h1>
       <p class="lead mt-3">
-        A versatile Computer Science graduate who combines AI, data analysis, and creativity across technology and education. Welcome to my portfolio!
+        A versatile Computer Science graduate who combines AI, data analysis, and creativity across technology and education.<br>
+        Welcome to my portfolio!
       </p>
     </section>
 
@@ -161,11 +196,11 @@
        manage fee structures, and perform data-related tasks using Excel. I also prepare examination papers using <strong>Microsoft Office</strong> and manage the school’s social media presence to boost engagement and outreach.
       </p>
       <p>
-        On the creative side, I manage the social media for <strong>JQ Aesthetic</strong>, a skincare and wellness clinic based in Peshawar, where I combine my passion for marketing and creativity.
+      On the creative side, I managed the social media for <strong>JQ Aesthetic</strong>, a skincare and wellness clinic based in Peshawar, and also worked with <strong>Live Again</strong> as a Social Media Manager and Graphic Designer, where I combined my passion for marketing, design, and creativity.
       </p>
       <p>
         <p>
-              My experiences include <strong>data typing</strong> and documentation work —
+              My experiences include <strong>data typing</strong> and documentation work
               skills that enhance my precision and attention to detail in every project.
             </p>
             <p>
@@ -239,6 +274,88 @@
     <section id="portfolio">
       <h2>My Designs</h2>
       <div class="row g-3">
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/G9CXhGks/1.png" alt = "Portfolio 01" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/DmTxyLqX/2.png" alt = "Portfolio 02" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/YLRGtJ10/3.png" alt = "Portfolio 03" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/bSgDqKQh/4.png" alt = "Portfolio 04" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/k26Ht9DZ/help-4.png" alt = "Portfolio 05" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/PPFcxNfN/help1.png" alt = "Portfolio 06" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/sMQLZy1K/help2.png" alt = "Portfolio 07" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/5XYrF1js/help3.png" alt = "Portfolio 08" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/tY2bzXXr/live-1.png" alt = "Portfolio 09" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/nC0x1HFV/live-2.png" alt = "Portfolio 101" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/TpCxcRd3/live-3.png" alt = "Portfolio 102" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/N5ptxgsf/live-4.png" alt = "Portfolio 103" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/FfFDV4KF/MYTH-1.png" alt = "Portfolio 104" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/hJ4p1BGc/myth-2.png" alt = "Portfolio 105" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/t1R2Nj4m/myth-3.png" alt = "Portfolio 106" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/McZdmSGS/myth-4.png" alt = "Portfolio 107" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/xkjt32dY/myth-5.png" alt = "Portfolio 108" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/ZBRQKW7X/12-Rabi-Aawal-NPS-1.png" alt = "Portfolio 109" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/zyF2CC9K/Ajmat-Niaz-Travel.png" alt = "Portfolio 110" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/Snf166wN/Eid-Milad-Un-Nabi-Instagram-Post-1.png" alt = "Portfolio 111" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/njPPsnNw/MEEM-Logo.png" alt = "Portfolio 112" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/SYj3xnsw/therapy-1.png" alt = "Portfolio 113" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/235PwKwZ/therapy-2.png" alt = "Portfolio 114" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/G9pZQ5QB/therapy-3.png" alt = "Portfolio 115" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/pydgZ6Zn/therapy-4.png" alt = "Portfolio 116" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/Z0q1cMcN/therapy-5.png" alt = "Portfolio 117" class="img-fluid rounded shadow-sm"/>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3"> 
+          <img src = "https://i.postimg.cc/5jtZ3R3p/therapy-6.png" alt = "Portfolio 118" class="img-fluid rounded shadow-sm"/>
+        </div>
+
         <div class="col-6 col-sm-4 col-md-3"> 
           <img src = "https://i.postimg.cc/rwNctRgr/Odoo-Post.png" alt = "Portfolio 1" class="img-fluid rounded shadow-sm"/>
         </div>
@@ -329,7 +446,7 @@
   <p>
     You can view my resume below:
   </p>
-  <a href="Monica CV.pdf" target="_blank" class="btn btn-outline-primary">
+  <a href="Monica_CV_Updated.pdf" target="_blank" class="btn btn-outline-primary">
     <i class="bi bi-file-earmark-person-fill me-2"></i> View CV
   </a>
 </section>
