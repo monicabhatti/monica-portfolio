@@ -13,9 +13,9 @@ This site highlights my academic background, technical experience, and creative 
 
 - **About Me** – Who I am, my story, and interests
 - **Projects & Experiences** – Key academic and freelance work
-- **CV** – Accessible version of mmy CV
+- **CV** – Accessible version of my CV
 - **Contact Section** – Easy links to WhatsApp, LinkedIn, and Email
-- **Creative Branding** – JQ Aesthetic social media sample and more
+- **Creative Branding** – Live Again, JQ Aesthetic social media sample and more
 
 ---
 
